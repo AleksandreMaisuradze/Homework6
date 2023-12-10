@@ -20,7 +20,7 @@ function add() {
         listDiv.appendChild(btn)
         p.classList.add("todo_item")
         input.value = "";
-        p.addEventListener("click", () => {
+        listDiv.addEventListener("click", () => {
             p.classList.toggle("checked")
         })
         btn.addEventListener("click", () => {

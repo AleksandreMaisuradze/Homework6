@@ -29,7 +29,6 @@
 .todo_item {
     font-size: 24px;
     padding: 12px;
-    cursor: pointer;
 }
 
 .todo_list_div {
@@ -40,6 +39,7 @@
     align-items: center;
     justify-content: space-between;
     background: #ec6c6c;
+    cursor: pointer;
 }
 
 .todo_list_div:nth-child(even) {
