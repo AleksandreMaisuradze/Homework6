@@ -1,0 +1,61 @@
+.todo_form {
+    padding: 40px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo_form input {
+    width: 87%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-size: 24px;
+}
+
+.todo_form button {
+    width: 13%;
+    padding: 16px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    font-size: 24px;
+    background: #ec6c6c;
+    cursor: pointer;
+}
+
+.todo_item {
+    font-size: 24px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.todo_list_div {
+    padding-inline: 20px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ec6c6c;
+}
+
+.todo_list_div:nth-child(even) {
+    background-color: #aa8d8d;
+}
+
+.todo_list_div_button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    padding: 10px;
+    background: rgb(218, 172, 172);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checked {
+   text-decoration-line: line-through;
+}
